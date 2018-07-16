@@ -20,7 +20,6 @@ function currentLine(katzDeli){
   if (katzDeli.length === 0){
     return "The line is currently empty."
   }
-
   else {
     for (let i = 0; i < katzDeli.length; i++){
       theLineArray += (i + 1) + ". " + katzDeli[i] + ", "
