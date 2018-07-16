@@ -24,8 +24,8 @@ function currentLine(katzDeli){
     for (let i = 0; i < katzDeli.length; i++){
       theLineArray += (i + 1) + ". " + katzDeli[i] + ", "
     }
-      var finalLine = theLineArray.slice(0, theLineArray.length - 2)
-      return `The line is currently: ` + finalLine
+      //var finalLine = 
+      return `The line is currently: ` + theLineArray.slice(0, theLineArray.length - 2)
     }
   }
 
