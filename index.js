@@ -30,6 +30,5 @@ function currentLine(katzDeli){
     }
   }
 
-// Use Object.assign to make an object with key : value pairs?
 // Make a new array and push() the new object into it so it can be returned as a string?
 // Reference: https://www.w3schools.com/js/js_arrays.asplearn
